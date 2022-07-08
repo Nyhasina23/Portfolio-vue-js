@@ -26,7 +26,7 @@ export default {
     width:100%;
 }
 .navBar .logo h1 {
-    color : var(--color-primary);
+    color : #ff9966;
     font-size : 3rem;
 }
 .navBar{

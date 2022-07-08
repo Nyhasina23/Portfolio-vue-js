@@ -74,7 +74,7 @@ export default {
     color: var(--color-primary-3);
     padding: 1rem 4rem 1rem 4rem;
     border-radius: 5px;
-    background-color: var(--color-primary);
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
     font-weight: bold;
     letter-spacing: 0.1rem;
 }

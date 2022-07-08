@@ -48,76 +48,65 @@
             </div>
         </div>
 
-<div class="service-header">
+      <div class="service-header">
           <h1>Projects</h1>
           <p>
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natur
           </p>
       </div>
         <div class="cards">
-  <div class="card content">
-    <div class="card-content">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="Gamer">
-      </div>
-      <div class="card-label">E-Sports</div>
-      <div class="card-title">
-        Fnatic raises $19 million, shakes up leadership team
-      </div>
-    </div>
-  </div>
-  <div class="card content">
-    <div class="card-content">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="keyboard">
-      </div>
-      <div class="card-label">
-        Technology
-      </div>
-      <div class="card-title">
-        Google Stadia: The Future of Gaming
-      </div>
-    </div>
-  </div>
-  <div class="card content">
-    <div class="card-content">
-      <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1519326844852-704caea5679e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2034&q=80" alt="Controller">
-      </div>
-      <div class="card-label">
-        Consoles
-      </div>
-      <div class="card-title">
-        PS5 won't launch before mid-2020
-      </div>
-    </div>
-  </div>
-  <div class="card form">
-    <div class="form-title">CV</div>
-  </div>
-</div>
-            <!-- <div class="service-card one">
-                <div class="center-image">
-                    <img src="../assets/pngkey.com-ui-png-4062982.png" alt="">
-                </div>
-                <h1>UX Research</h1>
-                <p>Duis aute irure dolor in reprehenderit in voluptate <br> velit esse cillum dolore eu fugiat</p>
+        <div class="card content">
+            <div class="card-content">
+            <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="Gamer">
             </div>
-            <div class="service-card two">
-                <img src="../assets/kindpng_5574265.png" alt="">
-                <h1>Web Development</h1>
-                <p>Duis aute irure dolor in reprehenderit in voluptate <br> velit esse cillum dolore eu fugiat</p>
+            <div class="card-label">E-Sports</div>
+            <div class="card-title">
+                Fnatic raises $19 million, shakes up leadership team
             </div>
-            <div class="service-card">
-                <img src="" alt="">
-                <h1>App Design</h1>
-                <p>Duis aute irure dolor in reprehenderit in voluptate <br> velit esse cillum dolore eu fugiat</p>
             </div>
-            <div class="service-card">
-                <img src="" alt="">
-                <h1>Web Design</h1>
-                <p>Duis aute irure dolor in reprehenderit in voluptate <br> velit esse cillum dolore eu fugiat</p>
-            </div> -->
+        </div>
+        <div class="card content">
+            <div class="card-content">
+            <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="keyboard">
+            </div>
+            <div class="card-label">
+                Technology
+            </div>
+            <div class="card-title">
+                Google Stadia: The Future of Gaming
+            </div>
+            </div>
+        </div>
+        <div class="card content">
+            <div class="card-content">
+            <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1519326844852-704caea5679e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2034&q=80" alt="Controller">
+            </div>
+            <div class="card-label">
+                Consoles
+            </div>
+            <div class="card-title">
+                PS5 won't launch before mid-2020
+            </div>
+            </div>
+        </div>
+        <div class="card form">
+            <div class="form-title">CV</div>
+        </div>
+            <a class="btn_primary" href='#' target="_blank">Read More</a>
+
+
+    </div>
+
+        <div class="service-header">
+          <h1>Contacts</h1>
+          <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natur
+          </p>
+      </div>
+         
   </div>
   </div>
 </template>
@@ -252,7 +241,6 @@ p {
   outline: none;
   background: linear-gradient(90deg, #ff9966, #ff5e62);
   padding: 1.5rem 2rem;
-  border-radius: 50px;
   color: white;
   font-size: 1.2rem;
   box-shadow: 1px 10px 2rem rgba(255, 94, 98, 0.5);
@@ -404,7 +392,7 @@ p {
         left: 50%;
         width: 100%;
         height: 100%;
-        content: "Sign Up";
+        content: "CV";
         opacity: 0.5;
         filter: blur(10px);
         transition: all .25s ease;

@@ -52,9 +52,8 @@ export default {
     color: var(--color-primary-3);
     padding: 1rem 4rem 1rem 4rem;
     border-radius: 5px;
-    background-color: var(--color-primary);
-    border: 3px solid var(--color-primary);
-
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    border: 3px solid  #fd7577fa;
     font-weight: normal;
     margin-right: 5%;
 }
@@ -63,7 +62,7 @@ export default {
     color: var(--color-primary-3);
     padding: 1rem 4rem 1rem 4rem;
     border-radius: 5px;
-    border: 3px solid var(--color-primary);
+    border: 3px solid  #ff9966;
     font-weight: normal;
 }
 </style>

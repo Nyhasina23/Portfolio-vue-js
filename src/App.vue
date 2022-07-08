@@ -13,7 +13,7 @@
     --font : 'Poppins' 
     --main-white: #fff;
     --main-black:#000;
-    --color-primary : #FEB633;
+    --color-primary : #ff9966;
     --color-primary-2:#2B2C2C;
     --color-primary-5:#303131;
     --color-primary-3:#FFFFFF;
