@@ -54,6 +54,7 @@ export default {
     border-radius: 5px;
     background: linear-gradient(90deg, #ff9966, #ff5e62);
     border: 3px solid  #fd7577fa;
+    transition: all 0.2s ease-in;
     font-weight: normal;
     margin-right: 5%;
 }
@@ -63,6 +64,13 @@ export default {
     padding: 1rem 4rem 1rem 4rem;
     border-radius: 5px;
     border: 3px solid  #ff9966;
+    transition: all 0.2s ease-in;
     font-weight: normal;
+}
+.button-1:hover {
+    box-shadow: 0px 5px 1rem rgba(255, 94, 98, 0.5);
+}
+.button-2:hover{
+    box-shadow: 0px 5px 1rem rgba(255, 94, 98, 0.5);
 }
 </style>

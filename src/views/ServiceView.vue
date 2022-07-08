@@ -95,7 +95,7 @@
         <div class="card form">
             <div class="form-title">CV</div>
         </div>
-            <a class="btn_primary" href='#' target="_blank">Read More</a>
+        <a class="btn_primary" href='#' target="_blank">Read More</a>
 
 
     </div>
@@ -129,6 +129,7 @@ export default {
 .social box-icon:hover{
     fill : #ff9966;
     cursor: pointer;
+
 }
 .service-card-container{
     display: flex;
