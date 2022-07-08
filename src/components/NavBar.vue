@@ -52,4 +52,7 @@ export default {
     font-weight: 500;
     color : var(--color-primary-4)
 }
+.navbar-list ul li a:hover{
+    color : var(--color-primary)
+}
 </style>
