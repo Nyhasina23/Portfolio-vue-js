@@ -99,13 +99,17 @@
 
 
     </div>
-
-        <div class="service-header">
-          <h1>Contacts</h1>
-          <p>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natur
-          </p>
+    <div class="service-header">
+      <h1>Contacts</h1>
+      <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natur
+      </p>
+      <div class="social">
+        <box-icon type='logo' name='facebook'></box-icon>
+        <box-icon name='gmail' type='logo' ></box-icon>
+        <box-icon name='github' type='logo' ></box-icon>
       </div>
+    </div>
          
   </div>
   </div>
@@ -118,6 +122,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.social box-icon{
+    margin : 2rem;
+    fill : white;
+}
+.social box-icon:hover{
+    fill : #ff9966;
+    cursor: pointer;
+}
 .service-card-container{
     display: flex;
     flex-wrap: wrap;
